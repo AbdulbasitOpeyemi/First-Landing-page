@@ -1,0 +1,131 @@
+  /* Reset default browser styles for consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+
+        /* Main body styling - dark gradient background */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            max-height: 100vh;
+            overflow-x: hidden;
+             position: relative;
+        }
+
+        /* Navigation bar at the top */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            position: relative;
+        }
+
+        /* Logo styling - bold white text */
+        .logo {
+            font-size: 2.5rem;
+            font-family: sans-serif;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        .bold{
+            font-weight: 900;
+
+        }
+
+        /* Navigation menu container */
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+        }
+
+        /* Individual navigation links */
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        /* Hover effect for navigation links */
+        .nav-menu a:hover {
+            color: #00d4ff;
+        }
+
+        /* Main content container */
+        .hero-section {
+            display: flex;
+            align-items: space-between;
+            max-height:  90vh;
+            padding: 0 50px;
+        }
+
+        /* Left side content container */
+        .hero-content {
+            flex: 1;
+            width: 50%;
+        }
+
+        /* Main heading with gradient text effect */
+        .hero-title {
+            font-size: 4.5rem;
+            font-weight: bold;
+            line-height: 1.1;
+            margin-top: 10%;
+            margin-bottom: 30px;
+            background: linear-gradient(45deg, #72cbd7, #a7c7e9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            width: 80%;
+        }
+
+        /* Call-to-action section */
+        .cta-section {
+            margin-bottom: 40px;
+        }
+           
+    
+        /* "See more here" link with pink color */
+        .cta-link {
+            color: #c598c0;
+            font-size: 1.1rem;
+            text-decoration: underline;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+      
+        /* Social media icons container */
+        .social-icons {
+           
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+    
+
+        /* Right side image container */
+        .hero-image {
+            width: 50%;
+            display: flex;
+            justify-content: center; 
+            position: relative;
+            
+        }
+
+        /* Person image styling */
+        .hero-image img {
+            width: 400px;
+            margin-top: 10px;
+            object-fit: cover;
+            border-radius: 10px;
+            position: relative;
+        }

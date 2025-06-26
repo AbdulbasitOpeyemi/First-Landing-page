@@ -1,29 +1,63 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scle=1.0">
-        <style> body{background-color:rgb(2, 40, 48)} </style>
-        <title>Landing Page Template</title>
-    </head>
-    <body>
-        <header style="display:flex: justify-contents: space-between; align-items: center; padding: 20px 40px; color:white;">
-            <div style="font-weight:bold;font-size: 30px;"><span style="color:white;">BE</span><span style="color:grey">DE</span></div>
-            <div>
-            <nav style="margin:0 15px; word-spacing:6px; text-align: right; color:grey;justify-content: right;">
-                <a> Home </a> <a> Portfolio </a><a>Contact </a> 
-            </nav>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEDE - We Are Looking For You</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Company Logo -->
+        <div class="logo"><span class="bold">BE</span>DE</div>
+        
+        <!-- Navigation Menu -->
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- User Profile Icon -->
+           <!-- <li class="user-icon"> &#128100; </li> -->
+            <i class="fa-regular fa-circle-user"></i>
+        </ul>
+    </nav>
+
+    <!-- Main Hero Section -->
+    <section class="hero-section">
+        <!-- Left Side Content -->
+        <div class="hero-content">
+            <!-- Main Heading -->
+            <h1 class="hero-title">WE ARE LOOKING FOR YOU</h1>
+            
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <div>See more <a href="#" class="cta-link">here</a></div>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus iusto molestias ea aut officiis velit repellat assumenda amet est.
+                </p>
             </div>
             
-            <div style="width:100;"> 
-                <h1 style=" width: 50; float: left; text-align: left; font-size:48px; line-height: 1.2; margin-bottom:20px; color: #22d3ee; "> WE ARE  <br> LOOKING <br> FOR YOU</h1>
-                <img src="manoncall.png" alt="manoncall" style="width: 50; float: center; margin-bottom: 20px; display: block;">
-                <br>
-                <p style="color: #ddd; font-size: 16px; margin-bottom: 5px;"> <strong style="color:white;"> See More</strong><a href="#" style="color:pink "> here</a> <br>
-                Lorem Ipsum dolor sit amrteus dois consetur adipiscing eliteristres</p>
-                
-                
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <!-- learn from front awesome -->
+                 <div class="social-icons">
+                      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook " style="color: white"></i></a>
+                      <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"style="color: white"></i></a>
+                      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"style="color: white"></i></a>
+                     <a href="https://www.pinterest.com/" target="_blank"style="color: white"><i class="fab fa-pinterest"></i></a>
+                </div>
             </div>
-        </header>
-    </body>
-</html>  
+        </div>
+
+        <!-- Right Side Image -->
+        <div class="hero-image">
+         
+            <img src="./Assets/manoncall.png" alt="" >
+        </div>
+    </section>
+</body>
+</html>
