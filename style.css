@@ -3,12 +3,13 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: "Merriweather", serif;
         
         }
 
         /* Main body styling - dark gradient background */
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: "Merriweather", serif;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
             color: white;
             max-height: 100vh;
@@ -17,7 +18,7 @@
         }
 
         /* Navigation bar at the top */
-        .navbar {
+        .navbar {   
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -33,7 +34,9 @@
             letter-spacing: 2px;
         }
         .bold{
-            font-weight: 900;
+            font-weight: 600;
+            font-family: "Archivo Black", sans-serif;
+           
 
         }
 
